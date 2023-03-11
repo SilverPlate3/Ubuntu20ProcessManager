@@ -37,7 +37,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{444b0558-4984-4fb5-91e6-1579109249b1}</ProjectGuid>
     <Keyword>Linux</Keyword>
-    <RootNamespace>TestLinuxProj</RootNamespace>
+    <RootNamespace>Ubuntu20ProcessManager</RootNamespace>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <ApplicationType>Linux</ApplicationType>
     <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
@@ -121,7 +121,7 @@
       <AdditionalOptions>-pthread %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <PostBuildEvent>
-      <AdditionalSourcesToCopyMapping>C:\Users\ariels\OneDrive - Cynet LTD\Desktop\Ariel Silver\Personal\C++\Ubuntu20ProcesManager\Ubuntu20ProcesManager\TestLinuxProj\bin\x64\Release\TestLinuxProj.out:=/home/cynet/CompiledVisualStudioBinaries/ProcessManager/bin;</AdditionalSourcesToCopyMapping>
+      <AdditionalSourcesToCopyMapping>C:\Users\ariels\OneDrive - Cynet LTD\Desktop\Ariel Silver\Personal\C++\Ubuntu20ProcesManager\Ubuntu20ProcesManager\Ubuntu20ProcessManager\bin\x64\Release\Ubuntu20ProcessManager.out:=/home/cynet/CompiledVisualStudioBinaries/ProcessManager/bin;</AdditionalSourcesToCopyMapping>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
@@ -134,7 +134,7 @@
       <AdditionalOptions>-pthread %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <PostBuildEvent>
-      <AdditionalSourcesToCopyMapping>C:\Users\ariels\OneDrive - Cynet LTD\Desktop\Ariel Silver\Personal\C++\Ubuntu20ProcesManager\Ubuntu20ProcesManager\TestLinuxProj\bin\x64\Release\TestLinuxProj.out:=/home/cynet/CompiledVisualStudioBinaries/ProcessManager/bin;</AdditionalSourcesToCopyMapping>
+      <AdditionalSourcesToCopyMapping>C:\Users\ariels\OneDrive - Cynet LTD\Desktop\Ariel Silver\Personal\C++\Ubuntu20ProcesManager\Ubuntu20ProcesManager\Ubuntu20ProcessManager\bin\x64\Release\Ubuntu20ProcessManager.out:=/home/cynet/CompiledVisualStudioBinaries/ProcessManager/bin;</AdditionalSourcesToCopyMapping>
     </PostBuildEvent>
     <RemotePostBuildEvent>
       <Command>chmod -R 777 /home/cynet/CompiledVisualStudioBinaries</Command>
@@ -150,7 +150,7 @@
       <AdditionalOptions>-pthread %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <PostBuildEvent>
-      <AdditionalSourcesToCopyMapping>C:\Users\ariels\OneDrive - Cynet LTD\Desktop\Ariel Silver\Personal\C++\Ubuntu20ProcesManager\Ubuntu20ProcesManager\TestLinuxProj\bin\x64\Release\TestLinuxProj.out:=/home/cynet/CompiledVisualStudioBinaries/ProcessManager/bin;</AdditionalSourcesToCopyMapping>
+      <AdditionalSourcesToCopyMapping>C:\Users\ariels\OneDrive - Cynet LTD\Desktop\Ariel Silver\Personal\C++\Ubuntu20ProcesManager\Ubuntu20ProcesManager\Ubuntu20ProcessManager\bin\x64\Release\Ubuntu20ProcessManager.out:=/home/cynet/CompiledVisualStudioBinaries/ProcessManager/bin;</AdditionalSourcesToCopyMapping>
     </PostBuildEvent>
     <RemotePostBuildEvent>
       <Command>chmod -R 777 /home/cynet/CompiledVisualStudioBinaries</Command>
@@ -166,7 +166,7 @@
       <AdditionalOptions>-pthread %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <PostBuildEvent>
-      <AdditionalSourcesToCopyMapping>C:\Users\ariels\OneDrive - Cynet LTD\Desktop\Ariel Silver\Personal\C++\Ubuntu20ProcesManager\Ubuntu20ProcesManager\TestLinuxProj\bin\x64\Release\TestLinuxProj.out:=/home/cynet/CompiledVisualStudioBinaries/ProcessManager/bin;</AdditionalSourcesToCopyMapping>
+      <AdditionalSourcesToCopyMapping>C:\Users\ariels\OneDrive - Cynet LTD\Desktop\Ariel Silver\Personal\C++\Ubuntu20ProcesManager\Ubuntu20ProcesManager\Ubuntu20ProcessManager\bin\x64\Release\Ubuntu20ProcessManager.out:=/home/cynet/CompiledVisualStudioBinaries/ProcessManager/bin;</AdditionalSourcesToCopyMapping>
     </PostBuildEvent>
     <RemotePostBuildEvent>
       <Command>chmod -R 777 /home/cynet/CompiledVisualStudioBinaries</Command>
@@ -182,7 +182,7 @@
       <AdditionalOptions>-pthread %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <PostBuildEvent>
-      <AdditionalSourcesToCopyMapping>C:\Users\ariels\OneDrive - Cynet LTD\Desktop\Ariel Silver\Personal\C++\Ubuntu20ProcesManager\Ubuntu20ProcesManager\TestLinuxProj\bin\x64\Release\TestLinuxProj.out:=/home/cynet/CompiledVisualStudioBinaries/ProcessManager/bin;</AdditionalSourcesToCopyMapping>
+      <AdditionalSourcesToCopyMapping>C:\Users\ariels\OneDrive - Cynet LTD\Desktop\Ariel Silver\Personal\C++\Ubuntu20ProcesManager\Ubuntu20ProcesManager\Ubuntu20ProcessManager\bin\x64\Release\Ubuntu20ProcessManager.out:=/home/cynet/CompiledVisualStudioBinaries/ProcessManager/bin;</AdditionalSourcesToCopyMapping>
     </PostBuildEvent>
     <RemotePostBuildEvent>
       <Command>chmod -R 777 /home/cynet/CompiledVisualStudioBinaries</Command>
@@ -198,7 +198,7 @@
       <AdditionalOptions>-pthread %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <PostBuildEvent>
-      <AdditionalSourcesToCopyMapping>C:\Users\ariels\OneDrive - Cynet LTD\Desktop\Ariel Silver\Personal\C++\Ubuntu20ProcesManager\Ubuntu20ProcesManager\TestLinuxProj\bin\x64\Release\TestLinuxProj.out:=/home/cynet/CompiledVisualStudioBinaries/ProcessManager/bin;</AdditionalSourcesToCopyMapping>
+      <AdditionalSourcesToCopyMapping>C:\Users\ariels\OneDrive - Cynet LTD\Desktop\Ariel Silver\Personal\C++\Ubuntu20ProcesManager\Ubuntu20ProcesManager\Ubuntu20ProcessManager\bin\x64\Release\Ubuntu20ProcessManager.out:=/home/cynet/CompiledVisualStudioBinaries/ProcessManager/bin;</AdditionalSourcesToCopyMapping>
     </PostBuildEvent>
     <RemotePostBuildEvent>
       <Command>chmod -R 777 /home/cynet/CompiledVisualStudioBinaries</Command>
@@ -216,7 +216,7 @@
     <PostBuildEvent>
       <Command>
       </Command>
-      <AdditionalSourcesToCopyMapping>C:\Users\ariels\OneDrive - Cynet LTD\Desktop\Ariel Silver\Personal\C++\Ubuntu20ProcesManager\Ubuntu20ProcesManager\TestLinuxProj\bin\x64\Release\TestLinuxProj.out:=/home/cynet/CompiledVisualStudioBinaries/ProcessManager/bin;</AdditionalSourcesToCopyMapping>
+      <AdditionalSourcesToCopyMapping>C:\Users\ariels\OneDrive - Cynet LTD\Desktop\Ariel Silver\Personal\C++\Ubuntu20ProcesManager\Ubuntu20ProcesManager\Ubuntu20ProcessManager\bin\x64\Release\Ubuntu20ProcessManager.out:=/home/cynet/CompiledVisualStudioBinaries/ProcessManager/bin;</AdditionalSourcesToCopyMapping>
     </PostBuildEvent>
     <RemotePostBuildEvent>
       <Command>chmod -R 777 /home/cynet/CompiledVisualStudioBinaries</Command>
@@ -234,7 +234,7 @@
     <PostBuildEvent>
       <Command>
       </Command>
-      <AdditionalSourcesToCopyMapping>C:\Users\ariels\OneDrive - Cynet LTD\Desktop\Ariel Silver\Personal\C++\Ubuntu20ProcesManager\Ubuntu20ProcesManager\TestLinuxProj\bin\x64\Release\TestLinuxProj.out:=/home/cynet/CompiledVisualStudioBinaries/ProcessManager/bin;</AdditionalSourcesToCopyMapping>
+      <AdditionalSourcesToCopyMapping>C:\Users\ariels\OneDrive - Cynet LTD\Desktop\Ariel Silver\Personal\C++\Ubuntu20ProcesManager\Ubuntu20ProcesManager\Ubuntu20ProcessManager\bin\x64\Release\Ubuntu20ProcessManager.out:=/home/cynet/CompiledVisualStudioBinaries/ProcessManager/bin;</AdditionalSourcesToCopyMapping>
     </PostBuildEvent>
     <RemotePostBuildEvent>
       <Command>chmod -R 777 /home/cynet/CompiledVisualStudioBinaries</Command>

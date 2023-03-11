@@ -1,7 +1,6 @@
 #include "ProcDirectoryIterator.h"
 #include "ProcessManager.h"
 #include <filesystem>
-#include <thread>
 
 
 void ProcDirectoryIterator::FillProcessManager()
@@ -12,8 +11,12 @@ void ProcDirectoryIterator::FillProcessManager()
 
 void ProcDirectoryIterator::SearchProcPids()
 {
+	/* Why am I iterating over /proc with a for loop:
+	 proc is a virtual directory (its in memory not on disk).
+	 I found out that std::filesystem::recursive_directory_iterator misses some /proc/{pid} directories.
+	 Especially of forked processes. So this is to make sure we aren't missing any process.  
+	*/
 	const auto highestPid = GetHighestPID();
-
 	std::vector<std::thread> threads;
 	for(int i = 1; i <= highestPid; i++)
 	{
@@ -32,13 +35,7 @@ void ProcDirectoryIterator::SearchProcPids()
 		}
 	}
 
-	for (auto& thread : threads)
-	{
-		if (thread.joinable())
-		{
-			thread.join();
-		}
-	}
+	WaitForThreadsToEnd(threads);
 }
 
 long long ProcDirectoryIterator::GetHighestPID()
@@ -78,4 +75,16 @@ void ProcDirectoryIterator::AddProcess(int pid)
 {
 	ProcessManager processManager;
 	processManager.AddProcess(pid);
+}
+
+
+void ProcDirectoryIterator::WaitForThreadsToEnd(std::vector<std::thread>& threads)
+{
+	for (auto& thread : threads)
+	{
+		if (thread.joinable())
+		{
+			thread.join();
+		}
+	}
 }
